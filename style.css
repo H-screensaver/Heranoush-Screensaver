@@ -1,0 +1,43 @@
+html {
+    zoom: 150%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.character1 {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    background-image: url('./assets/H1.png');
+    background-size: cover;
+}
+
+.character2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-image: url('./assets/H2.png');
+    background-size: cover;
+}
+
+#character1 {
+    left: 200px;
+    top: 200px;
+}
+
+#character2 {
+    left: 600px;
+    top: 200px;
+}
+
+#message {
+    color: white;
+    text-align: center;
+}
